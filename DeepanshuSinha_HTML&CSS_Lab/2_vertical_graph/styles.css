@@ -1,0 +1,72 @@
+#bar-chart {
+    background-color: lightgray;
+    width: 195px;
+    margin: 0 auto;
+}
+
+.bar {
+    display: inline-block;
+    margin: 15px;
+    background-color: darkgray;
+    height: 300px;
+    width: 30px;
+}
+
+.animation-bar {
+    background-color: white;
+    height: 100%;
+}
+
+@keyframes animation-bar1 {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 70%;
+    }
+}
+
+#animated-bar1 {
+    animation-name: animation-bar1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animation-bar2 {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 60%;
+    }
+}
+
+#animated-bar2 {
+    animation-name: animation-bar2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animation-bar3 {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 20%;
+    }
+}
+
+#animated-bar3 {
+    animation-name: animation-bar3;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.bar-percentage-value {
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}

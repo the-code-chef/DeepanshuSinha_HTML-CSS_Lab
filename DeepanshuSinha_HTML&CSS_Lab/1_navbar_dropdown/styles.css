@@ -1,0 +1,54 @@
+.menu-items {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#main-menu {
+    background-color: darkgray;
+}
+
+#main-menu > li {
+    display: inline-block;
+}
+
+#main-menu > li:hover {
+    background-color: black;
+}
+
+#main-menu > li > a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+#main-menu-item2 {
+    position: relative;
+}
+
+#sub-menu {
+    position: absolute;
+    background-color: whitesmoke;
+    white-space: nowrap;
+    display: none;
+}
+
+#sub-menu > li {
+    padding: 10px;
+}
+
+#sub-menu > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-menu-item2:hover #sub-menu {
+    display: block;
+}
+
+header h1 {
+    background-color: red;
+    margin: 0;
+    text-align: right;
+    padding: 15px;
+}
